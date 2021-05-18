@@ -26,7 +26,7 @@ export default class District extends React.Component {
   render() {
     return (
       <div class="container">
-        <h2>List Districts</h2>
+        <h2> Districts</h2>
         <div class="list-group">
           {this.state.district.map((dis) => {
             return (
